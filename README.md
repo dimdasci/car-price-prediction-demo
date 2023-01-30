@@ -14,6 +14,8 @@ This work demonstrates:
 
 The purpose of files and directories are following.
 
+- `notebooks/` is a working directory for notebooks. 
+- `notebooks/data/` is a directory for datasets.
 - `Dockerfile` contains instructions to build Docker image with python and jupyter notebook. 
 - `requirements.txt` contains python modules needed for the project.
 - `Makefile` contains commands 
@@ -22,8 +24,7 @@ The purpose of files and directories are following.
   - `stop` to stop container.
   - `requirements` to install requirements needed
   - `run_on_host` to run jupyter notebook on host
-- `notebooks/` is a working directory for notebooks. 
-- `notebooks/data/` is a directory for datasets.
+
 
 ## How to run
 
